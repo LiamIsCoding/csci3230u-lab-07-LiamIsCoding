@@ -101,6 +101,8 @@ The data is an array of `{ id, text, done }`. Work through the steps marked in `
 
 In the Sudoku Lab 05 you cleared and rebuilt the board's DOM by hand on every move. Here you just changed an array and React did the rest. **Write a sentence or two on that difference** - it's the whole point of a component framework.
 
+By simply setting everything up so it can react to the changes in states the workload becomes fairly smaller. Instead of having to completely redraw everything based on what the new state would change, you simply tell it how it should look when changes get made so that it can update in real time. 
+
 ## How to submit
 
 Commit and **push to `origin`** (don't commit `node_modules/` - the `.gitignore` handles it). The graded state is whatever is on `main`.
